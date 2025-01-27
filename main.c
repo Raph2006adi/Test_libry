@@ -3,19 +3,19 @@
 #include "libry.h"
 
 int main() {
-    // Test Exercice 1
-    printf("*****************Exercice 1*****************\n");
+    //  Exercice 1
+    printf("Exercice 1\n");
     afficherBonjour();
 
-    // Test Exercice 2
-    printf("*****************Exercice 2*****************\n");
+    //  Exercice 2
+    printf("Exercice 2\n");
     int nombre;
     printf("Entrer un nombre entier a trois chiffres");
     scanf("%d", &nombre);
     printf("Inversion de %d : %d\n", nombre, inverserEntier(nombre));
 
-    // Test Exercice 3
-    printf("*****************Exercice 3*****************\n");
+    // Exercice 3
+    printf("Exercice 3\n");
     float a, b;
     printf("Entrer le premier nombre reel");
     scanf("%f", &a);
@@ -23,15 +23,15 @@ int main() {
     scanf("%f", &b);
     printf("Produit de %.3f et %.3f : %.3f\n", a, b, produitDeuxReels(a, b));
 
-    // Test Exercice 4
-    printf("*****************Exercice 4*****************\n");
+    // Exercice 4
+    printf("Exercice 4\n");
     int entier;
     printf("Entrer un nombre entier");
     scanf("%d", &entier);
     printf("%d est %s\n", entier, estPair(entier) ? "pair" : "impair");
 
-    // Test Exercice 5
-    printf("*****************Exercice 5*****************\n");
+    // Exercice 5
+    printf("Exercice 5\n");
     int x, y;
     printf("Entrer le nombre a");
     scanf("%d", &x);
@@ -39,8 +39,8 @@ int main() {
     scanf("%d", &y);
     printf("Comparaison entre %d et %d : %s\n", x, y, comparerEntiers(x, y));
 
-    // Test Exercice 6
-    printf("*****************Exercice 6*****************\n");
+    //  Exercice 6
+    printf("Exercice 6\n");
 
     int n1,n2,n3;
     printf("Entrer le premier nombre");
@@ -50,14 +50,14 @@ int main() {
     printf("Entrer le troisieme nombre ");
     scanf("%d", &n3);
     trierTroisEntiers(&n1, &n2, &n3);
-    printf("Entiers triés : %d, %d, %d\n", n1, n2, n3);
+    printf("Entiers triÃ©s : %d, %d, %d\n", n1, n2, n3);
 
-    // Test Exercice 7
-    printf("*****************Exercice 7*****************\n");
+    //Exercice 7
+    printf("Exercice 7\n");
     devinerNombre();
 
-    // Exercice 16: Permutation de deux caractères
-    printf("*****************Exercice 16*****************\n");
+    // Exercice 16: Permutation de deux caractÃ¨res
+    printf("Exercice 16\n");
     char x1,y1;
     printf("Entrer le premier caractere:");
     scanf(" %c", &x1);
@@ -65,10 +65,10 @@ int main() {
     scanf(" %c", &y1);
     printf("Avant permutation: x1 = %c, y1 = %c\n", x1, y1);
     permuterChar(&x1, &y1);
-    printf("Après permutation: x1 = %c, y1 = %c\n", x1, y1);
+    printf("AprÃ¨s permutation: x1 = %c, y1 = %c\n", x1, y1);
 
     // Exercice 17: Somme de deux entiers
-    printf("*****************Exercice 17*****************\n");
+    printf("Exercice 17\n");
     int a1, b1;
     printf("Entrer le premier nombre");
     scanf("%d", &a1);
